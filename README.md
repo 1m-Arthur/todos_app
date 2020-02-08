@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Don't forget to Edit `.env` files
+
+```
+DB_DATABASE=your DB Name
+DB_USERNAME=your Username
+DB_PASSWORD=your Password
+
+```
+run migration:
+` php artisan migrate `
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
